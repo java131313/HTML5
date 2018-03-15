@@ -1,1 +1,1 @@
-req
+console.log("领导不好惹！")
