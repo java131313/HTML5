@@ -14,5 +14,10 @@ var obj = {};
 obj.a ={};
 
 var a = obj.a;
+a.name="宋江"
+obj.a.age =18
+a = { name: "猪八戒"}
 //a obj.a
 console.log( a == obj.a );
+console.log(obj.a);
+console.log(a);
