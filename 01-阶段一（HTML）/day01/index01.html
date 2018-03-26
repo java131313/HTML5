@@ -15,6 +15,19 @@
 		<!-- 提供关于HTML文档的元数据。比如文字的编码，关键字，网页作者，网站的关键字，网站内容，描述；这些设置不会在浏览器中显示
 		charset="utf-8"：属性 key="value"
 		 -->
+		<script type="text/javascript">
+		 	var p = {
+		 	  name: 'Tom',
+				age: 12,
+				setName: function (name) {
+					this.name = name
+        }
+			}
+			//测试
+			console.log(p.name,p.age)
+			p.setName('Jack')
+			console.log(p.name,p.age)
+		</script>
 		<meta charset="utf-8">
 		<meta name="author" content="作者名字">
 		<meta name="keywords" content="关键字1,关键字2">
